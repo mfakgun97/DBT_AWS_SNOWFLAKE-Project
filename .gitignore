@@ -8,3 +8,15 @@ wheels/
 
 # Virtual environments
 .venv
+
+# dbt
+target/
+dbt_packages/
+logs/
+.user.yml
+profiles copy.yml
+
+# Credentials/secrets
+resources.sql
+*.pem
+*credentials*
