@@ -19,7 +19,7 @@ This project builds an end-to-end data pipeline for Airbnb data (listings, booki
 ## 🔐 Security
 
 - AWS access is scoped and restricted via IAM policies — credentials are never committed to the repository.
-- Snowflake connection details are managed through `profiles.yml` and excluded from version control via `.gitignore`.
+- Snowflake connection details are managed through `profiles copy.yml` and excluded from version control via `.gitignore`.
 
 ## 🚀 Usage
 
